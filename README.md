@@ -1,7 +1,7 @@
 <b>Amathm.co.uk</b><br>
 ---------------------------
 Portfolio Old WordPress Theme;
-To be redesigned 
+To be redesigned <br>
 ............................
 date created 
 02/07/2015
