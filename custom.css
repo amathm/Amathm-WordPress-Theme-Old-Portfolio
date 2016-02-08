@@ -1,0 +1,281 @@
+/* External Css Landing Page 
+Styling to be used or modified
+for blog pages only */
+
+
+/* 
+Main CSS style --style.css-- for static-pages only --static front page design--
+For blog CSS style look in --custom.css-- file -->
+*/
+@import url(http://fonts.googleapis.com/css?family=Lora:700,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic-ext);
+
+body {
+	background: #fff url("img/leavesbg.jpg") fixed;
+	font-size: 100%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .jumbotron p, .navbar-brand {font-family: 'Lora', serif;}
+p {font-family: "Open Sans", serif}
+.col-md-6 {
+	/*background:lightgreen;*/
+	text-align:center;
+}
+.jumbotron {
+	background: #fff url("img/leavesbanner.jpg");
+	/*color:#6e7c7f;*/
+	color:#fff;
+	min-height:300px;
+	text-align:center;
+	/*border-left:30px solid #000;*/
+	border:10px solid #000;
+	/*opacity:0;*/
+}
+.navbar-brand {
+	/*background:#a27e5a;*/
+	font-weight:bold;
+}
+li:hover {
+	/*background:red;*/
+	/*background:#f19d9b;
+	opacity:1;*/
+}
+.navbar-default {
+	background-color:#fcb63a;
+	border-color:#fcb63a;
+	/*opacity:0;*/
+}
+.nav li:hover {
+	background:#f19d9b;
+}
+
+/*services deleted */
+footer h6 {
+	background:#fcb63a;
+	width:300px;
+	margin:20px auto;
+	text-align:center;
+}
+.content {
+	margin-bottom:15px;
+}
+aside h2 {
+	text-align: center;
+}
+#portfolio {display:none;}
+p {font-size:1.5em;}
+h2 {font-size:2.25em}
+.jumbotron h1 {font-size:2.5em; padding-top:65px;}
+.jumbotron p {font-size:1.8em;}
+.jumbotron h1, .jumbotron p {
+	text-shadow: 0.3px 0.5px #fff;
+	text-transform:uppercase;
+}
+.nav li a, aside {font-size:15px;}
+.alert-success {padding:10px;}
+.navbar-header a {font-size:2.1em;}
+
+#home {
+	background: #fff;
+}
+
+/* test */
+
+#page-wrap { width: 960px; padding: 0 0 0 15px; margin-left: 40px; overflow: hidden; height: 100%; }
+
+.info-col { float: left; width: 132px; height: 100%; padding: 5px 0 0 0; }
+.info-col h2 { text-align: center; font-weight: normal; padding: 5px 0; }
+
+.image { height: 100px; text-indent: -9999px; display: block; border-right: 1px solid white; }
+
+.life { background: url(img/lifebg.jpg) center center no-repeat; }
+.animeblogs { background: url(img/animebg.jpg) center center no-repeat; }
+.arsenalfc { background: url(img/arsenalbg.jpg) center center no-repeat; }
+.general { background: url(img/random.jpg) center center no-repeat; }
+.technology { background: url(img/technologybg.jpg) center center no-repeat; }
+
+dt { padding: 5px; background: #900; color: #fff; border-bottom: 1px solid white; border-right: 1px solid white; }
+dd { position: absolute; left: -9999px; top: -9999px; width: 100%; background: #900; padding: 10px; color: white; border-right: 1px solid white; outline: 0;}
+
+dt:nth-of-type(1) { background: #49868b; }
+dd:nth-of-type(1) { background: #49868b; }
+
+dt:nth-of-type(2) { background: #8c4553; }
+dd:nth-of-type(2) { background: #8c4553; }
+
+dt:nth-of-type(3) { background: #deac8b; }
+dd:nth-of-type(3) { background: #deac8b; }
+
+.curCol { -moz-box-shadow: 0 0 10px rgba(0,0,0,0.2); -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2); z-index: 1; position: relative; }
+.col-aside {
+	padding: 40px 30px;
+}
+.content-blog-wrap {
+	padding: 20px 55px;
+	border-left:1px solid #A0A0A0;
+	overflow:hidden;
+}
+.igallery {
+	height: 480px;
+	background: #fcb63a;
+	z-index: 2;
+}
+.igallery h5 {
+	text-align: right;
+	color: #fff;
+	padding-top: 70px;
+	padding-right: 200px;
+}
+.igallery h2 {
+	color: #777;
+}
+a:focus {
+	outline: 0;
+}
+.blog-content-wrap {
+	background: #fff;
+	margin:0;
+}
+
+.modal-open .modal {
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #000;
+}
+.nav li.current_page_parent a:link,
+.nav li.current_page_parent a:visited {color:#000; font-weight:bold;}
+
+/* definition data styles */
+dd.cat-des {font-size:8px;}
+
+/* post styles */
+
+.blog .attachment-small-thumbnail {
+	width:200px;
+	float:left;
+	padding: 3px;
+	border:1px dotted navy;
+	margin-right:10px;
+}
+
+.single .attachment-large-thumbnail {
+	width:100%;
+	float:left;
+	padding: 3px;
+	border:1px solid #fff;
+	margin-right:10px;
+}
+
+section.post h2 {
+	margin-bottom:0;
+}
+section.post p.post-info {
+	font-size:1.2em;
+	color:#999;
+}
+
+section p.post-info a:link,
+section p.post-info a:visited {
+	color:#848E49;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.single-post .alignright {
+	padding:5px;
+	margin-top:8px;
+}
+.single-post .alignleft {
+	padding:5px;
+	margin-right:5px;
+}
+.has-success .form-control-feedback {
+color:#FCB63A;
+}
+.glyphicon-search {
+	
+	/*background:#2B542C;*/
+}
+
+/* search field */
+#search {width: 193px;}
+#search-form {position:relative; top:1px; z-index:2;}
+.has-success .form-control {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+.has-success .form-control, .has-success .form-control:focus {border-color: #FCB63A;}
+.has-success .form-control:focus {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 6px #67b168;
+}
+.btn-default:hover {
+    background-color: #fff;
+}
+span.screen-reader-text {
+	position:absolute;
+	left:-9999px;
+}
+.icon-search {
+	position:absolute;
+	top:0;
+	left:160px;
+	height:34px;
+	border-color: #FCB63A;
+}
+
+/* search query styles */
+.search-query h2 {
+	font-size:1.5em;
+	color:gray;
+}
+.search-query {
+	border-bottom:1px solid #A0A0A0;
+}
+/* end query */
+div.post-home {
+	padding-bottom:28px;
+	border-bottom:1px solid navy;
+}
+section {
+	padding-bottom:28px;
+	border-bottom:1px solid navy;
+}
+section:last-of-type {
+	border-bottom:none;
+}
+ul.widgets-aside {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.widgets-aside li {
+	list-style-type:none;
+}
+.widgets-aside li:first-of-type {
+	list-style-type:none;
+}
+.widgets-aside .widgettitle {
+	font-size:1.2em;
+	font-weight:bold;
+}
+#wp-calendar {width:50px; height:50px; font-size:25px;}
+.widgets-aside .widgettitle {display:none;}
+
+.container {
+	padding:0;
+	margin:0;
+}
+
+.error #search {border-color:red;}
+.error button {border-color:red;}
+
+.has-thumbnail img {margin-bottom:10px;}
+
+@media all and (max-width:995px) {
+	.igallery {visibility:hidden; height:350px;}
+}
+@media all and (max-width:550px) {
+	.blog .attachment-small-thumbnail {float:none; width:100%; height:100%;}
+}
+textarea {width:90%;}
